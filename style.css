@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;600&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* font-family: 'poppins', sans-serif; */
+
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    background:grey ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: rgb(241, 240, 243);
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    box-shadow: 0 35px 55px rgb(73, 63, 23);
+
+}
+
+/* .container .container_head
+{
+    position: relative;
+    max-width: 1000px;
+    max-height: 20%;
+    background: blue;
+} */
+
+.container .left_side
+{
+    position: relative;
+    background: rgb(50, 36, 9);
+    padding: 40px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    color: aliceblue;
+    
+    
+}
+.profileText .imgBox 
+{
+    position: relative;
+     width: 200px; 
+    height: 200px;
+    
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBox img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+}
+
+.profileText h2 
+{
+   color: aliceblue; 
+   font-size: 7mm;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-align: center;
+   font-weight: 600;
+   line-height: 6mm;
+
+}
+.profileText h2 span
+{
+    font-size:4mm ;
+    font-weight: 300;
+    text-align: right;
+    text-transform: none;
+
+}
+
+.contactInfo
+{
+    padding-top: 4px;
+    color: white;
+}
+
+.title 
+{
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.contactInfo ul 
+{
+    position: relative;
+
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+}
+.contactInfo ul li span
+{
+    color: white;
+    font-weight: 100;
+    display: inline-flex;
+    font-size: 3.5mm;
+}
+
+.Summary h3
+{
+    position: relative;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    font-size: 5mm;
+
+    color: aliceblue;
+}
+
+.Summary .SumText
+{
+    color: white;
+    font-weight: 100;
+    margin-top: 4px;
+    font-size: 3.5mm;
+    text-decoration-line: none;
+
+}
+
+.Skills .title
+{
+    position: relative;
+    font-size: 5mm;
+    text-decoration-line: underline;
+    margin-top: 10px;
+    
+}
+
+.SkillsInfo
+{
+    font-weight: 100;
+    margin-left: 12px;
+    margin-top: 4px;
+    color: white;
+    font-size: 3.5mm;
+
+}
+
+.Certification .title
+{
+    position: relative;
+    font-size: 5mm;
+    text-decoration-line: underline;
+    margin-top: 10px;
+    
+}
+
+.Certification ul
+{
+    font-weight: 100;
+    margin-left: 12px;
+    margin-top: 10px;
+    color: white;
+    font-size: 3.5mm;
+    align-items: center;
+}
+
+
+
+
+.Certification .Certificates .text 
+{
+    list-style: none;
+    margin: 100px;
+    font-style: italic;
+    align-items: end;
+    font-weight: 400;
+;
+}
+
+
+
+
+
+.container .left_right
+{
+    position: relative;
+    background: rgb(244, 244, 246);
+    padding: 40px;
+  
+}
+
+.Training  h3
+ {
+    position: relative;
+    color: black;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    font-size: 5mm;
+    
+
+}
+
+.Training h4 {
+    position: relative;
+    color: black;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-transform: none;
+}
+.Training h5 {
+    position: relative;
+    color: black;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-transform: none;
+}
+
+.Training .title .Time{
+
+    position: absolute;
+    right: 40px;
+}
+
+.Training ul {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+.Projects  h3
+ {
+    position: relative;
+    color: black;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-decoration-line: underline;
+    font-size: 5mm;
+    
+
+}
+
+.Projects h4 {
+    position: relative;
+    color: black;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-transform: none;
+}
+.Projects h5 {
+    position: relative;
+    color: black;
+    margin-top: 5px;
+    margin-left: 20px;
+    text-transform: none;
+}
+
+.Projects .title .Time 
+{
+
+    position: absolute;
+    right: 40px;
+    font-size: 12px;
+}
+
+.Projects ul {
+    position: relative;
+    margin-top: 3px;
+    margin-left: 30px;
+}
+
+.Projects ul li .text {
+    /* height: 2px; */
+    line-height: 20px;
+}
+
+
+.sch{
+    font-size:15px;
+    padding-left: 20px;
+}
+
+.sch-ad {
+    font-size: 13px;
+    padding-left: 43px;
+}
+
+.schh{
+    text-decoration-line: underline;
+}
